@@ -1,8 +1,8 @@
 #Basics
-A class is an abstract description of something that could exist with certain attributes/methods (eg. a dog class may have age/gender/breed)
-An object is sort of like something that contains data and code that exists under a class
-Classes can have unique methods, you declare them like you would a new function 
-__init__ initializes the objects attributes (makes it so you can actually work with the attributes)
+A class is an abstract description of something that could exist with certain attributes/methods (eg. a dog class may have age/gender/breed)  
+An object is sort of like something that contains data and code that exists under a class  
+Classes can have unique methods, you declare them like you would a new function   
+__init__ initializes the objects attributes (makes it so you can actually work with the attributes)  
 self paramater allows you to refer to the object
 
 ##Useful terminology/things you can do

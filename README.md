@@ -33,7 +33,8 @@ raise is a keyword to raise an exception (raise StopIteration)
 __iter__ allows the object to be iterable
 __next__ allows you to get to the next value 
 
-EXAMPLE OF THESE:
+Deck of cards example that demonstrates this:
+```python
 class Deck:
 	… Code …
 	def __iter__(self):
@@ -47,3 +48,4 @@ class Deck:
 		else:	
 			return self.__cards[self.__index]
 
+```

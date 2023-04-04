@@ -6,7 +6,8 @@ __init__ initializes the objects attributes (makes it so you can actually work w
 self paramater allows you to refer to the object
 
 ##Useful terminology/things you can do
-Encapsulation restricts access to certain attributes and methods (__ as as prefix)  
+Encapsulation restricts access to certain attributes and methods  
+If encapsulating data, you should use getters or setters if needed in order to access the data outside the class
 Overloading is when there is two methods that belong to the same class, but have different parameters  
 Overriding is when two methods have the same name but perform different tasks  
 Polymorphism is when a method exists across different classes and objects  
@@ -21,7 +22,7 @@ class Child(Parent):
 ```
 __repr__ presents a printable version of our object  
 __str__ converts the object to a string  
-What is the difference? I honestly do not know. But pretty much whenever you use '__str__' you should follow it up with '__repr__'
+What is the difference? I honestly do not know. But pretty much whenever you use __str__ you should follow it up with __repr__
 
 ###Inheritance  
 When an object or class is based on another object/class  

@@ -9,8 +9,16 @@ self paramater allows you to refer to the object
 Encapsulation restricts access to certain attributes and methods (__ as as prefix)  
 Overloading is when there is two methods that belong to the same class, but have different parameters  
 Overriding is when two methods have the same name but perform different tasks  
-Polymorphism is when a method exists across different classes and objects 
+Polymorphism is when a method exists across different classes and objects  
+Example of polymorphism in inherited classes:
+```python
+class Parent:
+	def method(self):
+		pass
 
+class Child(Parent):
+	def method(self):
+```
 __repr__ presents a printable version of our object  
 __str__ converts the object to a string  
 What is the difference? I honestly do not know. I guess if you want to use your object as a string then do __str__, otherwise if you just want to print it out use __repr__?

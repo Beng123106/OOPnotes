@@ -21,7 +21,7 @@ class Child(Parent):
 ```
 __repr__ presents a printable version of our object  
 __str__ converts the object to a string  
-What is the difference? I honestly do not know. I guess if you want to use your object as a string then do __str__, otherwise if you just want to print it out use __repr__?
+What is the difference? I honestly do not know. But pretty much whenever you use '__str__' you should follow it up with '__repr__'
 
 ###Inheritance  
 When an object or class is based on another object/class  

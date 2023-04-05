@@ -3,12 +3,13 @@ A class is an abstract description of something that could exist with certain at
 An object is sort of like something that contains data and code that exists under a class  
 Classes can have unique methods, you declare them like you would a new function   
 __init__ initializes the objects attributes (makes it so you can actually work with the attributes)  
-self paramater allows you to refer to the object
+self paramater allows you to refer to the object when needed
 
 ##Useful terminology/things you can do
-Encapsulation restricts access to certain attributes and methods  
+Encapsulation restricts access to certain attributes and methods. Cannot be accessed outside of where you actually coded the class... hence why:  
 If encapsulating data, you should use getters or setters if needed in order to access the data outside the class
-Overloading is when there is two methods that belong to the same class, but have different parameters  
+
+Overloading is when there is two methods that belong to the same class, but have different parameters    
 Overriding is when two methods have the same name but perform different tasks  
 Polymorphism is when a method exists across different classes and objects  
 Example of polymorphism in inherited classes:

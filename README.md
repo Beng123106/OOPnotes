@@ -26,7 +26,7 @@ __repr__ presents a printable version of our object
 __str__ converts the object to a string  
 What is the difference? I honestly do not know. But pretty much whenever you use __str__ you should follow it up with __repr__
 
-###Inheritance  
+# Inheritance  
 When an object or class is based on another object/class  
 Single inheritance: a subclass inheriting from a single superclass/parent class  
 Multiple inheritances: subclass that has multiple parent classes  
@@ -39,7 +39,7 @@ subclass will recieve all attributes and methods
 the subclass can build on and enhance itself with more attributes and methods  
 a subclass can override methods/attributes they inherit
 
-####Iterable objects  
+# Iterable objects  
 raise is a keyword to raise an exception (raise StopIteration)  
 __iter__ allows the object to be iterable  
 __next__ allows you to get to the next value 

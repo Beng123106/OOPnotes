@@ -5,7 +5,7 @@ Classes can have unique methods, you declare them like you would a new function
 __init__ initializes the objects attributes (makes it so you can actually work with the attributes)  
 self paramater allows you to refer to the object when needed
 
-##Useful terminology/things you can do
+# Useful terminology/things you can do
 Encapsulation restricts access to certain attributes and methods. Cannot be accessed outside of where you actually coded the class... hence why:  
 If encapsulating data, you should use getters or setters if needed in order to access the data outside the class
 

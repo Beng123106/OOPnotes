@@ -34,7 +34,8 @@ Multilevel inheritance: a subclass that is inheriting from another subclass that
 Subclass does not need __init__ unless it needs new attributes  
 the super() method refers to the parent class or if inheriting multiple classes, it refers to the first class you write  
 eg. class Corgi(Animal, Dog)
-super().__init__ blah blah blah, the blank super refers to the Animal class and not the Dog one
+'super().__init__', the blank super refers to the Animal class and not the Dog one
+if you want to refer to the Dog class then write super(Dog)
 
 Whats the point of inheritance?    
 subclass will recieve all attributes and methods  

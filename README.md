@@ -32,10 +32,11 @@ Single inheritance: a subclass inheriting from a single superclass/parent class
 Multiple inheritances: subclass that has multiple parent classes  
 Multilevel inheritance: a subclass that is inheriting from another subclass that is inheriting from a....  
 Subclass does not need __init__ unless it needs new attributes  
+
 the super() method refers to the parent class or if inheriting multiple classes, it refers to the first class you write  
 eg. class Corgi(Animal, Dog)
-'super().__init__', the blank super refers to the Animal class and not the Dog one
-if you want to refer to the Dog class then write super(Dog)
+'super().__init__', the blank super refers to the Animal class and not the Dog one  
+If you want to refer to the Dog class then write super(Dog)
 
 Whats the point of inheritance?    
 subclass will recieve all attributes and methods  
